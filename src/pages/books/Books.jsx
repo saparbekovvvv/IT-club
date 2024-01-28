@@ -70,7 +70,6 @@ const booksData = [
 export default function Books() {
   const [selectedGenres, setSelectedGenres] = useState([]);
 
-  // Function to toggle genre selection
   const toggleGenre = (genre) => {
     if (selectedGenres.includes(genre)) {
       setSelectedGenres(
@@ -81,10 +80,9 @@ export default function Books() {
     }
   };
 
-  // Function to check if book matches selected genres
   const doesBookMatchGenres = (bookGenres) => {
     if (selectedGenres.length === 0) {
-      return true; // Show all books if no genres selected
+      return true;
     } else {
       return selectedGenres.some((selectedGenre) =>
         bookGenres.includes(selectedGenre)
