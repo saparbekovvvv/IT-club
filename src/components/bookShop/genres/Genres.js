@@ -9,7 +9,7 @@ export default function Genres() {
   return (
     <div>
       <div className="container">
-        <div className=" justify-center ">
+        <div className=" justify-center pt-[40px]">
           <div className="flex justify-between">
             <h1
               style={{
