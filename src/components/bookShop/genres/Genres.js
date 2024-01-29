@@ -43,3 +43,5 @@ export default function Genres() {
     </div>
   );
 }
+
+// khamza
