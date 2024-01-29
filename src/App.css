@@ -21,3 +21,32 @@ a {
   background: #818eea;
   padding: 100px;
 }
+.book1 {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.book1:hover {
+  margin-top: -50px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.book2 {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.book2:hover {
+  margin-top: -50px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.book3 {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.book3:hover {
+  margin-top: -50px;
+  opacity: 1;
+  transition: 0.5s;
+}

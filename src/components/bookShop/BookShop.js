@@ -1,5 +1,8 @@
 import React from "react";
 import Genres from "./genres/Genres";
+import NewBooks from "./newBooks/NewBooks";
+import Books01 from "./books01/Books01";
+import AboutUs from "./aboutUs/AboutUs";
 
 export default function BookShop() {
   return (
@@ -21,6 +24,9 @@ export default function BookShop() {
         </div>
       </section>
       <Genres />
+      <NewBooks />
+      <Books01 />
+      <AboutUs />
     </div>
   );
 }
