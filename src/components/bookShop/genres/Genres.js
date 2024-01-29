@@ -9,13 +9,18 @@ export default function Genres() {
   return (
     <div>
       <div className="container">
+<<<<<<< HEAD
+        <div style={{ marginTop: "140px" }} className=" justify-center">
+=======
         <div className=" justify-center pt-[40px]">
+>>>>>>> 0ec59a1f54fcce34ee7c42bb4a1f1c1f32b16396
           <div className="flex justify-between">
             <h1
               style={{
                 fontSize: "48px",
                 fontWeight: "500",
                 color: "#19272E",
+                marginTop: "-25px",
               }}
             >
               Genres
@@ -26,7 +31,10 @@ export default function Genres() {
               View all
             </p>
           </div>
-          <div className="flex justify-center gap-14">
+          <div
+            style={{ marginTop: "60px" }}
+            className="flex justify-center gap-14"
+          >
             <img src={card} alt="" />
             <img src={card1} alt="" />
             <img src={card2} alt="" />
