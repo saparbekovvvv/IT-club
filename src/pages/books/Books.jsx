@@ -10,7 +10,7 @@ import Product6 from "../images/Product Image (6).png";
 import Product7 from "../images/Product Image (7).png";
 import Product8 from "../images/Product Image (8).png";
 
-const booksData = [
+export const booksData = [
   {
     image: Product,
     title: "THE SUBTLE ART OF NOT GIVING A F*CK",

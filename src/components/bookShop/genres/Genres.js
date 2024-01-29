@@ -9,7 +9,11 @@ export default function Genres() {
   return (
     <div>
       <div className="container">
+<<<<<<< HEAD
         <div style={{ marginTop: "140px" }} className=" justify-center">
+=======
+        <div className=" justify-center pt-[40px]">
+>>>>>>> 0ec59a1f54fcce34ee7c42bb4a1f1c1f32b16396
           <div className="flex justify-between">
             <h1
               style={{
