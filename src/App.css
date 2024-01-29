@@ -21,7 +21,7 @@ a {
   background: #818eea;
   padding: 100px;
 }
-<<<<<<< HEAD
+
 .modal {
   position: fixed;
   top: 0;
@@ -41,7 +41,7 @@ a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   max-width: 80%;
   overflow-y: auto;
-=======
+}
 .book1 {
   opacity: 0.8;
   transition: 0.5s;
@@ -70,5 +70,4 @@ a {
   margin-top: -50px;
   opacity: 1;
   transition: 0.5s;
->>>>>>> 38cced6bc67d67675d4949ff9b2eaad0b1de6639
 }

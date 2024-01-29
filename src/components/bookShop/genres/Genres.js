@@ -7,18 +7,9 @@ import card4 from "../../images/card (4).png";
 import card5 from "../../images/card (5).png";
 export default function Genres() {
   return (
-<<<<<<< HEAD
     <div className="container">
       <div style={{ marginTop: "140px" }} className=" justify-center">
-=======
-    <div>
-      <div className="container">
-<<<<<<< HEAD
-        <div style={{ marginTop: "140px" }} className=" justify-center">
-=======
->>>>>>> f070e0a8e41d5788b810bad38d38f928e0235581
         <div className=" justify-center pt-[40px]">
->>>>>>> 0ec59a1f54fcce34ee7c42bb4a1f1c1f32b16396
           <div className="flex justify-between">
             <h1
               style={{
